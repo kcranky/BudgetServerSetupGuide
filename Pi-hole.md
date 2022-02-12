@@ -22,7 +22,7 @@ To run the installer, run
 
 ## Set the Pi as the DHCP server
 First, log into your router and disable the DHCP server there.
-Then, log into the Pi-hole web interface in your browser at `{Pi-IP}/admin`, for example `192.168.0.2/admin/`.
+Then, log into the Pi-hole web interface in your browser at `{Pi-IP}/admin`, for example `192.168.1.244/admin/`.
 - Click "login" and log in with the credentials presented to you at installation.
 - Click "Settings" on the left hand side of the screen, then click "DHCP" along the top.
 - Enable the DHCP server, and set the range of IP addresses to assign. I usually leave a few IP's on the lower end unassigned, as my router, Raspberry Pi, and other network devices get static IP addresses assigned.
