@@ -63,6 +63,21 @@ Read the guide [here](FileBrowser.md).
 
 ### Part 2: Configuration
 - Navigate to `media.raspberrypi/` in your browser
+- Click Next, set your username and password
+- Follow the prompts to add your media libraies. For example:
+   - Add your media libraries (movies, series, music, photos, etc)
+   - Set your storage to be the external drive you mounted earlier
+   - Repeat and add as many libraries as you wish
+- Set your preferred metadata language
+- Allow remote connections to the server
+- Click "Finish"
+- Log in again
+- Do the remaining configuration for hardware acceleration
+  - Open the menu on the left hand side and click "Settings"
+  - Under the "Admin" menu, select "Dashboard"
+  - Select "Playback"
+  - Under the "Hardware Acceleration" dropdown, select "OpenMAX OMX"
+  - Scroll down and hit "Save"
 
 ## 4. Calibre
 
