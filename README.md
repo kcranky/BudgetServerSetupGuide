@@ -76,7 +76,7 @@ Read the guide [here](FileBrowser.md).
   - Open the menu on the left hand side and click "Settings"
   - Under the "Admin" menu, select "Dashboard"
   - Select "Playback"
-  - Under the "Hardware Acceleration" dropdown, select "OpenMAX OMX"
+  - Under the "Hardware Acceleration" dropdown, select "Video4Linux2(V4L2)"
   - Scroll down and hit "Save"
 
 ## 4. Calibre
