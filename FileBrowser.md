@@ -36,7 +36,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=filebrowser -c /var/lib/filebrowser/.filebrowser.json
+ExecStart=filebrowser -c /var/lib/filebrowser/.filebrowser.json --disable-preview-resize --disable-type-detection-by-header --cache-dir /var/lib/filebrowser/cache
 
 [Install]
 WantedBy=multi-user.target
