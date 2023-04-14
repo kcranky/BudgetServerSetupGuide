@@ -20,6 +20,10 @@ Before installing, make note that the folowing config options are different/non-
 To run the installer, run   
 `curl -sSL https://install.pi-hole.net | sudo bash`
 
+## Install sqlite
+`sudo apt install sqlite3 php-sqlite3`
+
+
 ## Set the Pi as the DHCP server
 First, log into your router and disable the DHCP server there.
 Then, log into the Pi-hole web interface in your browser at `{Pi-IP}/admin`, for example `192.168.1.244/admin/`.
